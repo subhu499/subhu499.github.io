@@ -1,0 +1,6 @@
+.container{
+    height:100vh;
+    /* background: rgb(255,248,234);
+    background: linear-gradient(180deg, rgba(255,248,234,1) 0%, rgba(165,127,126,1) 100%); */
+    background-color: #FFF8EA;
+}

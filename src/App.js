@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+import { Box, Text } from '@chakra-ui/react';
 import './App.css';
+import './home.css';
+import Navbar from './Pages/Navbar';
+import "./Pages/Page.css";
+import Allroutes from "./Components/Allroutes"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+      <div className='App'>
+        <div className="container">
+          <Navbar />
+          <Allroutes />
+          <Box p="10px 0px" w="100%" bg="#13022C">
+            <Text fontWeight="bold" fontSize={["xs", "sm", "md"]} color="white" textAlign="center">Designed and developed by Shubham Jha, @2022 All rights reserved</Text>
+          </Box>
+        </div>
+      </div>
+    );
 }
 
 export default App;

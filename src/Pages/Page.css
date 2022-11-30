@@ -1,0 +1,63 @@
+.skillouter{
+    border: 1.5px solid rgba(164, 23, 230, 0.637);
+    padding: 20px;
+    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137);
+}
+.skillinner{
+    background-color: #2b273b;
+    background: rgb(142,139,161);
+    background: linear-gradient(120deg, rgba(142,139,161,1) 2%, rgba(67,61,101,1) 53%, rgba(48,42,79,1) 94%);
+    height: 100%;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.skillinner:hover{
+    background: #2b273b;
+    background-image: linear-gradient( 359.4deg,  rgba(12,20,69,1) -16.9%, rgba(71,30,84,1) 119.9% );
+    transform: rotate3d(1, 1, 1, 360deg);
+    transition-property: transform;
+    transition-duration: 1.5s;
+}
+.projectouter{
+    border: 2.5px solid rgba(200, 137, 230, 0.637);
+    padding: 20px;
+    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137);
+}
+.projectouter:hover{
+    border: 3.5px solid rgba(200, 137, 230, 0.637);
+    background: #2b273b;
+    background-image: linear-gradient( 359.4deg,  rgba(12,20,69,1) -16.9%, rgba(71,30,84,1) 119.9% );
+    transform: scale(1.05);
+    transition-property: transform;
+    transition-duration: 1.5s;
+}
+.iconbutton {
+    text-decoration: none;
+    border-radius: 60px;
+    display: inline;
+    align-items: center;
+    overflow:hidden;
+    width: auto;
+    max-width: 50px; /** I'm animating max-width because width needs to be auto, and auto can't be animated **/
+    -webkit-transition: max-width 0.5s;
+    transition: max-width 0.5s;
+  }
+  
+  .iconbutton:hover {
+    max-width: 500px;
+  }
+  
+  .icon {
+    font-family: "Font Awesome 5 Free";
+    font-size: 16px;
+    margin-right: 15px;
+    padding: 0px 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .text {
+    white-space: nowrap;
+    padding-right: 15px;
+  }

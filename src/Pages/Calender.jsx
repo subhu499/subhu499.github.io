@@ -5,8 +5,8 @@ import { Box, Text } from "@chakra-ui/react";
 
 function Calender() {
   return (
-    <Box bg="linear-gradient(180deg, rgba(44,23,75,1) 45%, rgba(28,14,50,1) 99%)" color="white" h="420">
-        <Box w="80%" transform="scale(1.05)" m="auto" textAlign="center" p="60px auto">
+    <Box bg="linear-gradient(180deg, rgba(44,23,75,1) 45%, rgba(28,14,50,1) 99%)"  color="white" h={["440px", "520px", "650px"]}>
+        <Box w="80%" transform="scale(1.05)" m="auto" textAlign="center" p="60px auto" >
             <Row style={{ justifyContent: "center", padding: "20px auto", paddingTop: "60px"}}>
             <Text mb="25px" textAlign="center"  fontWeight="400" fontSize={["3xl", "4xl", "5xl"]}>My Github Calender</Text>
             <GitHubCalendar
@@ -18,7 +18,12 @@ function Calender() {
             />
             </Row>
         </Box>
+        <Box mt="50px"  w={["80%", "80%", "60%"]} textAlign="center" alignItems="center" justifyContent="center" justifyItems="center" marginLeft={["40px", "60px" , "430px"]} > 
+         <img  h={["50px" ,"100px",  "200px"]}  src="https://github-readme-streak-stats.herokuapp.com/?user=subhu499" alt="" /></Box>
+       
     </Box>
+    
+
   );
 }
 

@@ -2,5 +2,54 @@
     height:100vh;
     /* background: rgb(255,248,234);
     background: linear-gradient(180deg, rgba(255,248,234,1) 0%, rgba(165,127,126,1) 100%); */
-    background-color: #FFF8EA;
 }
+
+.rotateyes{
+    transform: rotate(180deg);
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.wrapper{
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+.wrapper .elem:nth-child(1){
+    animation: anim 1s cubic-bezier(0.19, 1, 0.22, 1) 1s both;
+}
+
+@keyframes anim{
+    to{
+        margin-top: -700px;
+    }
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .logo p {
+    margin: 0;
+  }
+
+  .first {
+    font-size: 28px;
+    color: darkred;
+    font-family: "Lobster", cursive;
+  }
+  
+  .last {
+    font-size: 22px;
+    color: white;
+    font-family: "Lobster", cursive;
+  }
+  .code{
+font-size: 28px;
+color: chocolate;
+  }

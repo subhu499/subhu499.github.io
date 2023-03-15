@@ -7,53 +7,41 @@ function Project(){
 
     let projectdata= [
         {
-            name: "Trip Advisor Clone",
-            img: "https://www.webintravel.com/wp-content/uploads/2018/11/tripadvisor2.jpg",
-            type: "Individual",
-            desc: "A travel website, where people can plan their trips, book flight, book hotels, etc User can Signin and view the home page",
-            techstack: "React, CHakra UI, JavaScript, CSS",
-            livelink: "https://the-awesomee-sanghamitra0591-site.netlify.app/",
-            gitlink: "https://github.com/sanghamitra0591/low-head-7683/tree/main/tripadvisor"
-        },
-        {
-            name: "Google digital Garage Clone",
-            img: "https://talentx.ai/wp-content/uploads/2022/08/Google-Digital-Garage.png",
+            name: "FirstPost Clone",
+            img: "https://user-images.githubusercontent.com/107755482/205422666-276fa2ec-4b71-418c-b61e-ca0c6bcfe712.png",
             type: "Group",
-            desc: "A digital learing platform by Google, where user can signin, login, check for courses, certification, live training, etc. (Fully Functional)",
+            desc: "A clone of the conservative News Portal, where people can read news articles, All over about world  People can subscribe to the channel and create your account ",
             techstack: "HTML, CSS, JavaScript",
-            livelink: "https://graceful-douhua-6b500e.netlify.app/",
-            gitlink: "https://github.com/imrangadwal10/zonked-instrument-5361"
+            livelink: "https://admirable-salamander-e9eb43.netlify.app/",
+            gitlink: "https://github.com/subhu499/medical-ducks-5598"
         },
         {
-            name: "Meanbuy Clone",
-            img: "https://i.ytimg.com/vi/cAw5-Oe0hBM/maxresdefault.jpg",
-            type: "Individual",
-            desc: "An E-Commerce website having the unique feature which allows the users to sell their products as well. User can Login, Signup, Visit Seller's Page, Whatsapp Page, etc.",
-            techstack: "HTML, CSS, JavaScript",
-            livelink: "https://resilient-seahorse-6f4d05.netlify.app/",
-            gitlink: "https://github.com/sanghamitra0591/murky-rate-2238"
+            name: "Myntra Clone",
+            img: "https://user-images.githubusercontent.com/105987614/208336161-9f2cefda-5dd1-4211-a393-141d41c8dceb.png",
+            type: "Group",
+            desc: "This is a cloned website of myntra.com. Myntra.com is India's largest e-commerce store for fashion and lifestyle products. This was a collaborative project which was completed in 5 days using techstack React JS | Redux | Chakra-Ui | react router dom",
+            techstack: "React, CHakra UI, JavaScript, CSS",
+            livelink: "https://myntra-clone-seven.vercel.app/",
+            gitlink: "https://github.com/AMARDEEP115/Myntra-Clone"
         },
-        // {
-        //     name: "Slideshow Maker",
-        //     img: "",
-        //     desc: "",
-        //     livelink: "https://vermillion-marzipan-4b3164.netlify.app/",
-        //     gitlink: "https://github.com/sanghamitra0591/exploring/tree/main/album-maker"
-        // },
-        // {
-        //     name: "Recipe App",
-        //     img: "",
-        //     desc: "",
-        //     livelink: "https://courageous-valkyrie-f0e4b0.netlify.app/",
-        //     gitlink: ""
-        // },
-        // {
-        //     name: "Netflix Clone",
-        //     img: "",
-        //     desc: "",
-        //     livelink: "",
-        //     gitlink: "https://github.com/sanghamitra0591/exploring/tree/main/netflixcopy"
-        // }
+        {
+            name: "Animoto Clone",
+            img: "https://user-images.githubusercontent.com/107755482/205422386-fc3e0e2a-107b-432f-83c8-21f712b3d988.png",
+            type: "Group",
+            desc: "Animoto is a cloud-based video creation service that produces video from photos, video clips, and music into video slideshows,and customized web-based presentations",
+            techstack: "HTML, CSS, JavaScript",
+            livelink: "https://ephemeral-stroopwafel-bcdb0d.netlify.app/index.html",
+            gitlink: "https://github.com/indicate0/nostalgic-blood-2749"
+        },
+        {
+            name: "FirstPost Clone",
+            img: "https://user-images.githubusercontent.com/107755482/205422666-276fa2ec-4b71-418c-b61e-ca0c6bcfe712.png",
+            type: "Group",
+            desc: "A clone of the conservative News Portal, where people can read news articles, All over about world  People can subscribe to the channel and create your account ",
+            techstack: "HTML, CSS, JavaScript",
+            livelink: "https://admirable-salamander-e9eb43.netlify.app/",
+            gitlink: "https://github.com/subhu499/medical-ducks-5598"
+        }
     ]
 
     return <Box id="Project" w="full" bg="#13022C" color="#ffffff" p="30px 0px" textAlign="center">

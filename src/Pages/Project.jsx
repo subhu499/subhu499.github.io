@@ -12,7 +12,7 @@ function Project(){
             type: "Group",
             desc: "A clone of the conservative News Portal, where people can read news articles, All over about world  People can subscribe to the channel and create your account ",
             techstack: "HTML, CSS, JavaScript",
-            livelink: "https://admirable-salamander-e9eb43.netlify.app/",
+            livelink: "https://effulgent-truffle-55a1fb.netlify.app/",
             gitlink: "https://github.com/subhu499/medical-ducks-5598"
         },
         {
@@ -34,13 +34,13 @@ function Project(){
             gitlink: "https://github.com/indicate0/nostalgic-blood-2749"
         },
         {
-            name: "FirstPost Clone",
-            img: "https://user-images.githubusercontent.com/107755482/205422666-276fa2ec-4b71-418c-b61e-ca0c6bcfe712.png",
-            type: "Group",
-            desc: "A clone of the conservative News Portal, where people can read news articles, All over about world  People can subscribe to the channel and create your account ",
-            techstack: "HTML, CSS, JavaScript",
-            livelink: "https://admirable-salamander-e9eb43.netlify.app/",
-            gitlink: "https://github.com/subhu499/medical-ducks-5598"
+            name: "Sugar Cosmetic Clone",
+            img: "https://user-images.githubusercontent.com/107755482/231206715-4823d9d8-d04e-4415-aa92-4a9ddc7394af.PNG",
+            type: "Solo",
+            desc: "A SUGAR COSMETIC is a famous fastest growing beauty brand and also Its's is a leading E-commerce platform selling various cosmetics products. ",
+            techstack: "React , Redux , JavaScript , Chakra UI, MongoDB , NodeJS , Express , Mongo Atlas",
+            livelink: "https://sugarcosmetics-subhu499.vercel.app/",
+            gitlink: "https://github.com/subhu499/sugar_cosmetic"
         }
     ]
 

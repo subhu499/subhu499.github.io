@@ -6,7 +6,7 @@ import Calender from "./Calender";
 import Contacts from "./Contact";
 import Project from "./Project";
 import Skills from "./Skillls";
-// import Resume from "../Images/Shubham_Jha_Resume.pdf";
+import Resume from "../Images/fw19_0717-Shubham-Jha-Resume.pdf";
 import {  AiOutlineGithub, AiOutlineLinkedin} from "react-icons/ai";
 
 
@@ -16,7 +16,7 @@ function Homepage(){
                 <Box h={["300px","500px" , "620px"] }w="85%" color= "#ffffff" m="auto" display={["inline", "inline", "flex"]} alignItems="center" justifyContent="space-around">
                 <Box mt={["50px", "50px", "0px"]} w={["100%", "100%", "60%"]}>
                         <Box textAlign="left" pl={["20px", "60px", "20px"]}>
-                            <Text fontWeight="500" fontFamily="sans-serif" display="flex" alignItems="center" fontSize={["2xl", "3xl", "4xl"]}>Hi <Image boxSize={["30px", "40px", "50px"]}  src="https://emojipedia-us.s3.amazonaws.com/source/noto-emoji-animations/344/waving-hand_1f44b.gif" alt="img" />, my name is</Text>
+                            <Text fontWeight="500" fontFamily="sans-serif" display="flex" alignItems="center" fontSize={["2xl", "3xl", "4xl"]}>Hi <Image boxSize={["30px", "40px", "50px"]}  src="https://i.pinimg.com/originals/57/5a/20/575a20918d349a354cc636a0d49b35a0.gif" alt="img" />, my name is</Text>
                             <Text fontFamily="cursive" fontSize={["4xl", "5xl", "6xl"]}>Shubham Jha</Text>
                             <Box fontFamily="sans-serif" fontSize={["2xl", "3xl", "4xl"]}>
                                 <Typewriter
@@ -34,8 +34,8 @@ function Homepage(){
                             </Box>
                             {/* <a href={Resume} download><button >Download CV</button> </a> */}
 
-                            <a href="https://drive.google.com/file/d/1XO4IqQU4GwDhg_mR0e62Hp3R1IrPhifE/view?usp=share_link" rel="noreferrer" target="_blank">
-                            <Button _hover={{bg:"#4E406F", color:"#ffffff"}} mt="10px" p={["15px 15px", "20px 20px", "25px 25px"]} fontSize={["md", "lg", "xl"]} bg="#C1B6DB" color="#13022c" border="none" variant='solid' leftIcon={<DownloadIcon />}>
+                            <a href={Resume} download="fw19_0717-Shubham-Jha-Resume.pdf">
+                            <Button onClick={()=> {window.open("https://drive.google.com/file/d/1XO4IqQU4GwDhg_mR0e62Hp3R1IrPhifE/view", "blank")}}  _hover={{bg:"#4E406F", color:"#ffffff"}} mt="10px" p={["15px 15px", "20px 20px", "25px 25px"]} fontSize={["md", "lg", "xl"]} bg="#C1B6DB" color="#13022c" border="none" variant='solid' leftIcon={<DownloadIcon />}>
                             Resume</Button>
                             </a>
 

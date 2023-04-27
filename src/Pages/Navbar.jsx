@@ -6,7 +6,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import { CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
 // import { FaMoon, FaSun } from "react-icons/fa";
 import "../home.css";
-// import Resume from "../Images/Shubham_Jha_Resume.pdf";
+import Resume from "../Images/fw19_0717-Shubham-Jha-Resume.pdf";
 
 function Navbar(){
 
@@ -45,9 +45,6 @@ function Navbar(){
                         <span className="code">&#x0002F;&#x0003E;</span>
                       </p>
                     </div>
-  
-
-
 
             </Box>
             {/* <Text fontWeight="bold" ml={["15px", "2px", "10px"]} fontSize={['xl', '2xl', '3xl']}>Sanghamitra</Text> */}
@@ -65,9 +62,12 @@ function Navbar(){
                     <AnchorLink href='#Project'><Text  fontWeight="500" _active={{textDecoration:"underlined"}} fontSize={['sm', 'sm', 'lg']}>Project</Text></AnchorLink>
                 </Link>
                 <Link display="flex">
-                    <AnchorLink href='#Contact'><Text  fontWeight="500" fontSize={['sm', 'sm', 'lg']}>Contact</Text></AnchorLink>
+                    <AnchorLink href="#Contact"><Text  fontWeight="500" fontSize={['sm', 'sm', 'lg']}>Contact</Text></AnchorLink>
                 </Link>
-                <Text  fontWeight="500" fontSize={['sm', 'sm', 'lg']}><a href="https://drive.google.com/file/d/1XO4IqQU4GwDhg_mR0e62Hp3R1IrPhifE/view?usp=share_link" rel="noreferrer" target="_blank">Resume</a></Text>
+                <a href={Resume} download="fw19_0717-Shubham-Jha-Resume.pdf" >
+                            <Text onClick={()=> {window.open("https://drive.google.com/file/d/1XO4IqQU4GwDhg_mR0e62Hp3R1IrPhifE/view", "blank")}}   fontWeight="500" fontSize={['sm', 'sm', 'lg']}>
+                            Resume</Text>
+                            </a>
                 <IconButton
                     aria-label="toggle theme"
                     rounded="full"
@@ -94,7 +94,11 @@ function Navbar(){
             <AnchorLink href='#Skills' onClick={()=> changeDisplay('none')}  > Skills</AnchorLink>
             <AnchorLink href='#Project' onClick={()=> changeDisplay('none')}  > Projects</AnchorLink>
             <AnchorLink href='#Contact' onClick={()=> changeDisplay('none')}  > Contact</AnchorLink>
-            <Text ><a href="https://drive.google.com/file/d/1XO4IqQU4GwDhg_mR0e62Hp3R1IrPhifE/view?usp=share_link" rel="noreferrer" target="_blank"> Resume</a></Text>
+        
+            <a href={Resume} download="fw19_0717-Shubham-Jha-Resume.pdf">
+                            <Text onClick={()=> {window.open("https://drive.google.com/file/d/1XO4IqQU4GwDhg_mR0e62Hp3R1IrPhifE/view", "blank")}}  >
+                            Resume</Text>
+                            </a>
             {/* <Box textAlign="center">
                 <IconButton
                     aria-label="toggle theme"

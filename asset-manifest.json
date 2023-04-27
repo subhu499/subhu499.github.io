@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.32b8b793.css",
+    "main.css": "/static/css/main.e9034b20.css",
     "main.js": "/static/js/main.51e99391.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/fw19_0717-Shubham-Jha-Resume.pdf": "/static/media/fw19_0717-Shubham-Jha-Resume.f1f50fc2e63e6c05456f.pdf",
     "index.html": "/index.html",
-    "main.32b8b793.css.map": "/static/css/main.32b8b793.css.map",
+    "main.e9034b20.css.map": "/static/css/main.e9034b20.css.map",
     "main.51e99391.js.map": "/static/js/main.51e99391.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32b8b793.css",
+    "static/css/main.e9034b20.css",
     "static/js/main.51e99391.js"
   ]
 }
